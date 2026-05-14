@@ -1,0 +1,17 @@
+wazuh@wazuh-server:~$ sudo grep -A6 "firewall-drop" /var/ossec/etc/ossec.conf
+    <name>firewall-drop</name>
+    <executable>firewall-drop</executable>
+    <timeout_allowed>yes</timeout_allowed>
+  </command>
+
+  <command>
+    <name>host-deny</name>
+    <executable>host-deny</executable>
+--
+  <command>firewall-drop</command>
+  <location>local</location>
+  <rules_id>100001</rules_id>
+  <timeout>180</timeout>
+</active-response>
+
+</ossec_config>
