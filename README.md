@@ -67,11 +67,13 @@ security monitoring, threat detection, and incident response.
 ## Screenshots
 | Screenshot | Description |
 |------------|-------------|
-| ![Dashboard](screenshots/wazuh-01-dashboard-login-success.png) | Wazuh Dashboard |
-| ![Alerts](screenshots/wazuh-05-brute-force-alerts.png) | Brute Force Alerts |
-| ![Custom Rule](screenshots/wazuh-11-custom-rule-fired.png) | Custom Rule Firing |
-| ![Active Response](screenshots/wazuh-16-active-response-full-cycle.png) | Auto IP Block |
-| ![VirusTotal](screenshots/wazuh-24-virustotal-malware-detected.png) | Malware Detection |
+![Dashboard](screenshots/wazuh-01-dashboard-login-success.png)
+![Alerts](screenshots/wazuh-05-brute-force-alerts.png)
+![Custom Rule](screenshots/wazuh-11-custom-rule-fired.png)
+![Active Response](screenshots/wazuh-16-active-response-full-cycle.png)
+![VirusTotal](screenshots/wazuh-24-virustotal-malware-detected.png)
+![Hydra](screenshots/wazuh-25-hydra-attack-running.png)
+![Report](screenshots/wazuh-report-final.pdf.png)
 
 ## Key Configurations
 
