@@ -67,13 +67,16 @@ security monitoring, threat detection, and incident response.
 ## Screenshots
 | Screenshot | Description |
 |------------|-------------|
-![Dashboard](screenshots/wazuh-01-dashboard-login-success.png)
-![Alerts](screenshots/wazuh-05-brute-force-alerts.png)
-![Custom Rule](screenshots/wazuh-11-custom-rule-fired.png)
-![Active Response](screenshots/wazuh-16-active-response-full-cycle.png)
-![VirusTotal](screenshots/wazuh-24-virustotal-malware-detected.png)
-![Hydra](screenshots/wazuh-25-hydra-attack-running.png)
-![Report](screenshots/wazuh-report-final.pdf.png)
+| ![Dashboard](screenshots/wazuh-01-dashboard-login-success.png) | Wazuh Dashboard Login |
+| ![Agent](screenshots/wazuh-02-agent-running-kali.png) | Kali Agent Running |
+| ![Connected](screenshots/wazuh-03-kali-agent-connected.png) | Agent Connected |
+| ![MITRE](screenshots/wazuh-06-mitre-attack-alerts.png) | MITRE ATT&CK Alerts |
+| ![Custom Rule](screenshots/wazuh-11-custom-rule-fired.png) | Custom Rule Firing |
+| ![IP Blocked](screenshots/wazuh-15-ip-blocked-iptables.png) | IP Blocked |
+| ![Active Response](screenshots/wazuh-16-active-response-full-cycle.png) | Auto IP Block Cycle |
+| ![VirusTotal](screenshots/wazuh-24-virustotal-malware-detected.png) | Malware Detection |
+| ![Hydra](screenshots/wazuh-25-hydra-attack-running.png) | Hydra Attack |
+| ![Report](screenshots/wazuh-report-final.pdf.png) | PDF Report |
 
 ## Key Configurations
 
