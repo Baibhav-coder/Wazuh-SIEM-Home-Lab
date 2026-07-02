@@ -147,3 +147,51 @@ security monitoring, threat detection, and incident response.
 **Vaibhav** — MSc Cyber Security Student
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](YOUR_LINKEDIN_URL)
+
+
+
+## Metasploit Attack Simulations
+
+| Attack | Tool | Detected |
+|--------|------|---------|
+| SSH Brute Force | Metasploit | ✅ Yes |
+| HTTP Verb Tampering | Metasploit | ✅ Yes |
+| Web Directory Scan | Metasploit | ✅ Yes |
+| Port Scan | Metasploit | ✅ Yes |
+| Statistical Anomaly | Automatic | ✅ Yes |
+
+## SOAR Automation — Shuffle
+
+- Webhook integration receiving Wazuh alerts automatically
+- Automated VirusTotal IP reputation lookup on every alert
+- Automated email alerts on attack detection
+- Full pipeline — zero human intervention required
+
+## Incident Management — TheHive
+
+- Automatic case creation from Wazuh alerts via Shuffle
+- 95+ alerts ingested automatically
+- Full alert detail preserved in every case
+- Professional SOC incident management workflow
+
+## Additional Screenshots
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Metasploit](screenshots/wazuh-30-metasploit-full-cycle.png) | Metasploit Full Cycle Detected |
+| ![Port Scan](screenshots/wazuh-33-metasploit-port-scan.png) | Metasploit Port Scan |
+| ![All Scans](screenshots/wazuh-35-metasploit-all-scans.png) | All Metasploit Scans |
+| ![Vuln Scan](screenshots/wazuh-36-nmap-vuln-scan.png) | Nmap Vulnerability Scan |
+| ![HTTP Exploit](screenshots/wazuh-38-http-verb-exploit-response.png) | HTTP Verb Tampering |
+| ![Anomaly](screenshots/wazuh-40-statistical-anomaly-detected.png) | Statistical Anomaly Detection |
+| ![Email Alert](screenshots/wazuh-44-automated-email-alert.png.jpeg) | Automated Email Alert |
+| ![TheHive Running](screenshots/wazuh-46-thehive-containers-running.png) | TheHive Containers Running |
+| ![TheHive Login](screenshots/wazuh-47-thehive-dashboard-login.png) | TheHive Dashboard |
+| ![TheHive Alert](screenshots/wazuh-56-thehive-alert-detail.png) | TheHive Alert Detail |
+| ![TheHive Cases](screenshots/wazuh-57-thehive-95-alerts.png) | TheHive 95 Alerts Ingested |
+
+## Additional Tools Used
+- Metasploit Framework
+- Shuffle SOAR
+- TheHive
+- Docker
